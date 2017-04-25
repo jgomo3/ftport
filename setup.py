@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='ftport',
@@ -9,6 +9,7 @@ setup(
     author='Jesús Gómez',
     author_email='jgomo3@gmail.com',
     license='MIT',
+    packages=['ftport'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',  
