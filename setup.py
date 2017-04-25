@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ftport',
-    version='0.0.1',
+    version='0.0.2',
     description='Python ftplib extension for registering an alternative IP for'
                 ' the PORT command',
     url='https://github.com/jgomo3/ftport',
